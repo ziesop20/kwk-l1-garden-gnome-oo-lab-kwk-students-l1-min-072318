@@ -7,14 +7,19 @@ class GardenGnome
   def personality 
     @personality 
   end 
-  
-  def name = (name)
+  def hat_color= (hat_color)
+    @hat_color= hat_color
+  end 
+  def hat_color 
+    @hat_color
+  end 
+  def name= (name)
     @name = name 
   end 
   def name 
     @name 
   end 
-  def age = (age)
+  def age= (age)
     @age = age 
   def age 
     @age 
@@ -25,8 +30,9 @@ class GardenGnome
   def gluten_allergy
     @gluten_allergy
   end
-  
- 
+end 
+
+gnomeo = GardenGnome.new("kind", "baby blue")
   
   
   
