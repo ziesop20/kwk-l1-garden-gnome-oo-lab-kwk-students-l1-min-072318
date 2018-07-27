@@ -1,5 +1,13 @@
 # Code your instances here
 class GardenGnome 
+  def initialize(personality= "evil", hat_color= "red")
+    @personality = personality 
+    @hat_color = hat_color 
+  end 
+  def personality 
+    @personality 
+  end 
+  
   def name = (name)
     @name = name 
   end 
@@ -18,13 +26,7 @@ class GardenGnome
     @gluten_allergy
   end
   
-  def initialize(personality= "evil")
-    @personality = personality 
-  end 
-  def personality 
-    @personality 
-  end 
-  
+ 
   
   
   
