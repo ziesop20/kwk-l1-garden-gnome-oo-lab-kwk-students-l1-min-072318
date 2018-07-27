@@ -37,11 +37,14 @@ class GardenGnome
   def shout 
     "GNARLY!!!" 
   end 
+  def introduce_self 
+    puts "Hello humans, my name is #{@name}, I am #{@age" years old, and you'll rue the day you crossed me!"
+  end 
 end 
 
 gnomeo = GardenGnome.new("kind", "baby blue")
-  
-  
+gnomeo.name = "Frankie the Frightening"
+gnomeo.age = "324"
   
   
   
