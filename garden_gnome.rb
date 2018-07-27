@@ -30,6 +30,12 @@ class GardenGnome
   def gluten_allergy
     @gluten_allergy
   end
+  def gnaw 
+    return "Gnawing on a tree!!!"
+  end 
+  def shout 
+    "GNARLY!!!" 
+  end 
 end 
 
 gnomeo = GardenGnome.new("kind", "baby blue")
