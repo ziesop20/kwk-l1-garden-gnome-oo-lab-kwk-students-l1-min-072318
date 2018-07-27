@@ -42,9 +42,9 @@ class GardenGnome
   end 
 end 
 
-gnomeo = GardenGnome.new("kind", "baby blue")
-gnomeo.name = "Frankie the Frightening"
-gnomeo.age = "324"
+# gnomeo = GardenGnome.new("kind", "baby blue")
+# gnomeo.name = "Frankie the Frightening"
+# gnomeo.age = "324"
   
   
   
